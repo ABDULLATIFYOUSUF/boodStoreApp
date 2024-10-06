@@ -11,7 +11,7 @@ const _dirname = path.resolve();
 
 const app = express()
 const corsOptions ={
-  origin: "http://localhost:5173",
+  origin: "boodstoreapp-production.up.railway.app",
   Credentials:true  
 }
 app.use(cors(corsOptions))
