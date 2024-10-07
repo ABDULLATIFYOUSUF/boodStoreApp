@@ -11,7 +11,7 @@ const _dirname = path.resolve();
 
 const app = express()
 const corsOptions ={
-  origin: "https://boodstoreapp-production.up.railway.app",
+  origin: "https://latifbookstore.up.railway.app",
   Credentials:true  
 }
 app.use(cors(corsOptions))
